@@ -57,7 +57,7 @@ if uploaded_file: # and uploaded_file.name.endswith("ppt"):
         st.markdown(button, unsafe_allow_html=True)
 
 st.header("Documentación")
-with st.beta_expander("¿Qué es todo esto?"):
+with st.expander("¿Qué es todo esto?"):
     st.write("**¿Qué es esta página?**")
     st.write("Es un servicio para convertir una presentación en formato pptx (Powerpoint - Microsoft Office) a jupyter notebook con la extensión RISE. No es perfecto, pero ayuda enormemente a obtener una versión inicial con textos e imágenes.")
     st.write("**¿Qué es jupyter notebook?**")
@@ -65,10 +65,10 @@ with st.beta_expander("¿Qué es todo esto?"):
     st.write("**¿Qué es la extensión RISE?**")
     st.write("Es una extensión para Jupyter Notebook que permite **presentar** el notebook como una presentación a pantalla completa. De esa manera, es posible presentar en charlas, conferencias o clases mostrando y ejecutando código. ¡Ya no es necesario pegar pantallazos de código!") 
 
-with st.beta_expander("Ejemplos"):
+with st.expander("Ejemplos"):
     st.image("rise.gif")
 
-with st.beta_expander("FAQ - Preguntas frecuentes"):
+with st.expander("FAQ - Preguntas frecuentes"):
     st.write("**¿Cómo funciona?**")
     st.write("La verdad es más sencillo de lo que parece. Una librería de python llamada python-pptx permite (entre otras cosas) abrir los archivos pptx, con lo cual se extrae su contenido y se guarda en el formato requerido para jupyter notebook y la extensión RISE.")
     st.write("**¿Porqué complicarse la vida?**")
@@ -85,7 +85,7 @@ with st.beta_expander("FAQ - Preguntas frecuentes"):
     st.code("jupyter notebook")
     st.write("Finalmente abrir el notebook y lanzar la presentación.")
 
-with st.beta_expander("Enlaces"):
+with st.expander("Enlaces"):
     st.write("* [Documentación oficial de RISE](https://rise.readthedocs.io/)")
     st.write("* [Documentación oficial de Streamlit (inglés)](https://streamlit.io/)")  
     st.write("* [Tutorial de RISE](https://sebastiandres.github.io/blog/tutorial-rise/)")

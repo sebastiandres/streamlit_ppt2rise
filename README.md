@@ -1,21 +1,7 @@
-# Streamlit Template
+# README
 
-This is a template for Streamlit projects.
+¿Qué es esta página?
 
-# Customize
+Es un servicio para convertir una presentación en formato pptx (Powerpoint - Microsoft Office) a jupyter notebook con la extensión RISE. No es perfecto, pero ayuda enormemente a obtener una versión inicial con textos e imágenes.
 
-Edit `/streamlit_app.py` and `/pages/*.py`to customize this app.
-
-# Online demo
-
-To see an online demo, use this link:
-
-[https://share.streamlit.io/sebastiandres/template_streamlit/main](https://share.streamlit.io/sebastiandres/template_streamlit/main)
-
-## Local run
-
-To locally run the app, 
-
-```
-streamlit run streamlit_app.py
-```
+Ver opciones en: https://sebastiandres.github.io/streamlit_ppt2rise/ 
